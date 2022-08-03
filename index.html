@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrade Dev</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="user">
+            <img src="./assets/images/pictures/20220706_091029.jpg" alt="Foto pessoal">
+            <h3 class="name">Vinicius de Andrade</h3>
+            <p class="user-text">Desenvolvedor Front-end</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div id="menu" class="fa fa-bars"></div>
+
+    <section class="home" id="home">
+        <h3>Bem Vindo!</h3>
+        <h2>Eu sou o <span>Andrade</span></h2>     
+        <p>Desenvolvedor Front-end</p>
+        <p><i class="fa-solid fa-location-dot"></i> São Paulo, Brasil</p>
+        <div class="my-links">
+            <a href="https://www.linkedin.com/in/andrade-dev" target="_blank" class="social-btn fab fa-linkedin"></a>
+            <a href="https://github.com/v-andrade-dev" target="_blank" class="social-btn fab fa-github"></a>
+            <!-- <a href="#" class="social-btn fab fa-instagram"></a> -->
+            <!-- <a href="#" class="social-btn fab fa-twitter"></a> -->
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="title"> Sobre</h1>
+
+        <div class="about-content">
+            <div class="info">
+                <h3>Vinicius de Andrade</h3>
+                <p>
+                    São Paulo, 28 anos. Nerd, gamer e estudando programação a 7 meses. Atualmente focando no densenvolvimento Front-end. Tenho conhecimento em Git, paradigma da Orientação ao Objeto, e noções básicas de back-end, com nodeJS, Java e SpringBoot framework. Possuo inglês intermediário, consigo ler e compreender textos, e conversar de forma informal.
+
+                </p>
+                <!-- <a href="#"><button>Download CV <i class="fas fa-download"></i></button></a> -->
+            </div>
+
+            <div class="skills">
+                <div class="box">
+                    <span>HTML/CSS/JS</span>
+                    <h3>Conhecimentos sólidos em HTML, CSS e Javascript.</h3>
+                </div>
+
+                <div class="box">
+                    <span>React</span>
+                    <h3>Conhecimentos em States, Hooks e Redux</h3>
+                </div>
+
+                <div class="box">
+                    <span>Banco de dados</span>
+                    <h3>Conhecimentos básicos em banco de dados - MongoDB e MySQL.</h3>
+                </div>
+                
+                <div class="box">
+                    <span>NodeJS</span>
+                    <h3>Conhecimentos basicos em nodeJS</h3>
+                </div>
+
+                <div class="box">
+                    <span>Bootstrap</span>
+                    <h3>Conhecimentos básicos em Bootstrap</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section class="portfolio" id="portfolio">
+        <h1 class="title"> Meu <span>Portfolio</span></h1>
+        <button class="btn-prev"><i class="fas fa-angle-left prev"></i></button>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/images/portfolio/jogodavelha1.png" alt="tic-tac-toe image">
+                <div class="description">
+                    <h2>Jogo da Velha</h2>
+                    <p>Projeto desenvolvido pelo curso, jogo da velha simples, para 2 jogadores alternados.</p><br>
+                    <ul>Modificações do projeto original:
+                        <li>Placar;</li>
+                        <li>Destaque ao vencedor, com cor verde;</li>
+                        <li>Modo de jogo solo, contra o computador;</li>
+                    </ul>
+                    <br>
+                    <ul> Tecnologias utilizadas:
+                        <li>HTML;</li>
+                        <li>CSS;</li>
+                        <li>Javascript;</li>
+                    </ul>
+                    <br>
+                    <p> 
+                        <a href="https://jgvelha.netlify.app/" target="_blank">Acesse</a>
+                        <a href="https://github.com/v-andrade-dev/jogos/tree/main/jogo%20da%20velha" target="_blank">Código</a>
+                    </p> 
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/images/portfolio/memoria.png" alt="memory-game image">
+                <div class="description">
+                    <h2>Jogo da Memória</h2>
+                    <p>Projeto desenvolvido pelo curso, jogo da memória com cards das Tecnologias ensinadas.</p><br>
+                    <p>Projeto transportado para o React, usando components e simplificando o código.</p>
+                    <br><br>
+                    <ul> Tecnologias utilizadas:
+                        <li>HTML;</li>
+                        <li>CSS;</li>
+                        <li>Javascript;</li>
+                        <li>React *</li>
+                    </ul>
+                    <br><br>
+                    <p> 
+                        <a href="https://jg-memoria.netlify.app/" target="_blank">Acesse</a>
+                        <a href="https://github.com/v-andrade-dev/jogos/tree/main/memoria-react" target="_blank">Código</a>
+                    </p> 
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/images/portfolio/pokedex.png" alt="pokedex image">
+                <div class="description">
+                    <h2>Pokedex</h2>
+                    <p>Projeto de agenda pokemon, consumindo a PokeAPI.</p><br>
+                    <ul>Modificações do projeto original:
+                        <li>Adicionado efeito de luz em referência ao desenho;</li>
+                        <li>Som dos pokemons ao renderizar, e botão para ouvir novamente</li>
+                    </ul>
+                    <br>
+                    <ul> Tecnologias utilizadas:
+                        <li>HTML;</li>
+                        <li>CSS;</li>
+                        <li>Javascript;</li>
+                    </ul>
+                    <br><br>
+                    <p> 
+                        <a href="https://webpokedex.netlify.app/" target="_blank">Acesse</a>
+                        <a href="https://github.com/v-andrade-dev/jogos/tree/main/pokedex" target="_blank">Código</a>
+                    </p> 
+                </div>
+            </div>
+        </div>
+        <button class="btn-next"><i class="fas fa-angle-right next"></i></button>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="title"><span>Contato</span></h1>
+        <div class="contact-content">
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i>vini.andrade0@gmail.com</h3>
+                <!-- <h3><i class="fas fa-phone"></i>+55 11 91111-1111</h3> -->
+
+                <div class="my-links">
+                    <a href="www.linkedin.com/in/andrade-dev" target="_blank" class="social-btn fab fa-linkedin"></a>
+                    <!-- <a href="#" class="social-btn fab fa-instagram"></a> -->
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+</html>
+

@@ -1,0 +1,74 @@
+
+
+
+.about{
+    padding-left: 35rem;
+
+}
+
+.about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.about .about-content .info{
+    width: 30rem;
+    /* height: 50rem; */
+    background: #222;
+    text-align: center;
+    margin: 2rem;
+    flex:1 1 48rem;
+    padding: 2rem;
+    padding-left: 5rem;
+}
+
+
+.about .about-content .info, p span{
+    font-size: 2rem;
+    color: var(--main-color);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.about .about-content .info button {
+    padding:.7rem 3rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.about .about-content .info button:hover{
+    background: var(--main-color);
+}
+
+
+.about .about-content .skills{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .about-content .skills .box{
+    width: 20rem;
+    background: #222;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.about .about-content .skills .box span{
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+
+.about .about-content .skills .box h3{
+    font-size: 1.5rem;
+    color: #fff;
+}

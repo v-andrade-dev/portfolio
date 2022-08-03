@@ -1,0 +1,79 @@
+
+
+.portfolio{
+    padding-left: 34rem;
+    position: relative;
+}
+
+.portfolio .box-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.portfolio .box-container .box{
+    position: absolute;
+    top:10.5rem;
+    height: 80rem;
+    width: 40rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #222;
+
+}
+
+.portfolio .box-container .box img{
+    height: 40%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.portfolio .box-container .box .description h2,p, button{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.portfolio .box-container .box .description ul{
+    font-size: 2rem;
+    text-align: left;
+    color: #fff;
+}
+
+.portfolio .box-container .box .description ul li::before{
+    content: "-";
+}
+
+.portfolio .box-container .box .description a{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--main-color);
+    color:#222;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.portfolio button{
+    background-color:transparent;
+    border: none;
+    width: min-content;
+    height: min-content;
+    font-size: 10rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+.btn-prev{
+    left: -14rem;
+    right: 0;
+}
+
+.btn-next{
+    left: 80rem;
+    right: 0;
+}

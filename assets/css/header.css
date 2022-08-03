@@ -1,0 +1,59 @@
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;   
+    width: 35rem;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid var(--main-color);
+}
+
+header .user .name{
+    font-size: 3.5rem;
+    color: #ffff;
+}
+
+header .user .user-text{
+    font-size: 2rem;
+    color: #eee;
+}
+
+header .navbar{
+    width: 100%;
+}
+
+header .navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+
+header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    background: #333;
+    color: #fff;
+    border-radius: 5rem;
+}
+
+header .navbar ul li a:hover{
+    background: var(--main-color);
+    color: #222;
+}

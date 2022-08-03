@@ -1,0 +1,38 @@
+
+
+.contact{
+    padding-left: 35rem;
+}
+
+.contact .contact-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.contact .contact-content .info{
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contact .contact-content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+    font-weight: normal;
+    justify-content: center;
+}
+
+.contact .contact-content .info h3 i{
+    padding-right: 1rem;
+    color: var(--main-color);
+}
+
