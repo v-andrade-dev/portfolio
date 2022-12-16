@@ -45,6 +45,7 @@
 
 .about .about-content .info button:hover{
     background: var(--main-color);
+    color: #222;
 }
 
 

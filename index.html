@@ -17,7 +17,6 @@
         <div class="user">
             <img src="./assets/images/pictures/20220706_091029.jpg" alt="Foto pessoal">
             <h3 class="name">Vinicius de Andrade</h3>
-            <p class="user-text">Desenvolvedor Front-end</p>
         </div>
 
         <nav class="navbar">
@@ -36,7 +35,6 @@
     <section class="home" id="home">
         <h3>Bem Vindo!</h3>
         <h2>Eu sou o <span>Andrade</span></h2>     
-        <p>Desenvolvedor Front-end</p>
         <p><i class="fa-solid fa-location-dot"></i> São Paulo, Brasil</p>
         <div class="my-links">
             <a href="https://www.linkedin.com/in/andrade-dev" target="_blank" class="social-btn fab fa-linkedin"></a>
@@ -53,10 +51,10 @@
             <div class="info">
                 <h3>Vinicius de Andrade</h3>
                 <p>
-                    Cursando Análise e desenvolvimento de sistemas, EAD, no Centro Universitário União das Américas Descomplica. Tenho conhecimento básico em Git, paradigma da Orientação ao Objeto, e noções básicas de back-end, com nodeJS e Java. Conhecimento em tabelas e queries SQL, com MySQL. Possuo inglês intermediário, consigo ler e compreender textos, e conversar de forma informal.
+                    Cursando Análise e desenvolvimento de sistemas EAD, no Centro Universitário União das Américas Descomplica. Sempre ligado a tecnologia, aprendi muito "fuçando no computador" desde pequeno, tenho facilidade em aprender e sou dedicado no que estou fazendo no momento. Alem da faculdade, faço cursos práticos de programação, o resultado dos projetos é sempre motivador.  
 
                 </p>
-                <!-- <a href="#"><button>Download CV <i class="fas fa-download"></i></button></a> -->
+                <a href="./assets/files/andrade-curriculo.pdf"><button>Download CV <i class="fas fa-download"></i></button></a>
             </div>
 
             <div class="skills">
@@ -72,17 +70,12 @@
 
                 <div class="box">
                     <span>Banco de dados</span>
-                    <h3>Conhecimentos básicos em banco de dados - MongoDB e MySQL.</h3>
-                </div>
-                
-                <div class="box">
-                    <span>NodeJS</span>
-                    <h3>Conhecimentos basicos em nodeJS</h3>
+                    <h3>Conhecimento em tabelas e queries com MySQL, e intgração com JAVA</h3>
                 </div>
 
                 <div class="box">
-                    <span>Bootstrap</span>
-                    <h3>Conhecimentos básicos em Bootstrap</h3>
+                    <span>JAVA</span>
+                    <h3>Conhecimento em POO, JDBC, JPA/Hibernate, JavaFX e Spring Boot</h3>
                 </div>
 
             </div>
@@ -91,13 +84,13 @@
     
     <section class="portfolio" id="portfolio">
         <h1 class="title"> Meu <span>Portfolio</span></h1>
-        <button class="btn-prev"><i class="fas fa-angle-left prev"></i></button>
         <div class="box-container">
+
             <div class="box">
                 <img src="./assets/images/portfolio/jogodavelha1.png" alt="tic-tac-toe image">
                 <div class="description">
                     <h2>Jogo da Velha</h2>
-                    <p>Projeto desenvolvido pelo curso, jogo da velha simples, para 2 jogadores alternados.</p><br>
+                    <p>Projeto de jogo da velha simples, para 2 jogadores alternados.</p><br>
                     <ul>Modificações do projeto original:
                         <li>Placar;</li>
                         <li>Destaque ao vencedor, com cor verde;</li>
@@ -121,16 +114,16 @@
                 <img src="./assets/images/portfolio/memoria.png" alt="memory-game image">
                 <div class="description">
                     <h2>Jogo da Memória</h2>
-                    <p>Projeto desenvolvido pelo curso, jogo da memória com cards das Tecnologias ensinadas.</p><br>
-                    <p>Projeto transportado para o React, usando components e simplificando o código.</p>
-                    <br><br>
+                    <p>Projeto de jogo da memória com cards de Tecnologia.</p>
+                    <p>Projeto criado inicialmente em javascript puro e transportado para o React, usando components e simplificando o código.</p>
+                    <br>
                     <ul> Tecnologias utilizadas:
                         <li>HTML;</li>
                         <li>CSS;</li>
                         <li>Javascript;</li>
-                        <li>React *</li>
+                        <li>React</li>
                     </ul>
-                    <br><br>
+                    <br>
                     <p> 
                         <a href="https://jg-memoria.netlify.app/" target="_blank">Acesse</a>
                         <a href="https://github.com/v-andrade-dev/jogos/tree/main/memoria-react" target="_blank">Código</a>
@@ -160,7 +153,28 @@
                     </p> 
                 </div>
             </div>
+
+            <div class="box">
+                <img id="web" src="./assets/images/portfolio/webservices-code.png" alt="webservices-java image">
+                <div class="description">
+                    <h2>Webservices JAVA back-end</h2>
+                    <p>CRUD básico de um sistema de vendas com clientes, pedidos e produtos, utilizando o JPA com hibernate e o banco de dados H2.</p><br>
+    
+                    <ul> Tecnologias utilizadas:
+                        <li>JAVA;</li>
+                        <li>JPA/Hibernate;</li>
+                        <li>Spring Boot</li>
+                        <li>Maven;</li>
+                        <li>Banco de dados H2;</li>
+                    </ul>
+                    <br>
+                    <p> 
+                        <a href="https://github.com/v-andrade-dev/java/tree/main/webservices" target="_blank">Código</a>
+                    </p> 
+                </div>
+            </div>
         </div>
+        <button class="btn-prev btndesactive"><i class="fas fa-angle-left prev"></i></button>
         <button class="btn-next"><i class="fas fa-angle-right next"></i></button>
 
     </section>

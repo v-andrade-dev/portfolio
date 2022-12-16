@@ -30,33 +30,39 @@ jQuery(document).ready(function(){
   const projects = boxContainer.children();
 
   let projectId = projects.length-1;
-  console.log(projectId);
+  //console.log(projectId);
   
-  // jQuery('.btn-prev').hide();
 
   jQuery('.btn-prev').on('click',()=>{
+    jQuery('.btn-next').removeClass('btndesactive');
     if(projectId>=projects.length-1) {
-      jQuery('.btn-prev').attr('disabled', 'disabled');
+      jQuery('.btn-prev').addClass('btndesactive');
       projectId=projects.length-1;
+
+
     }
     jQuery(projects[projectId]).show();
     projectId++;
-    jQuery('.btn-next').removeAttr('disabled', 'disabled');
-    console.log(projectId);
+    //console.log(projectId);
 
   });
   
   jQuery('.btn-next').on('click',()=>{
+    jQuery('.btn-prev').removeClass('btndesactive');
     if (projectId<=1) {
-      jQuery('.btn-next').attr('disabled', 'disabled');
+      jQuery('.btn-next').addClass('btndesactive');
+
+      //jQuery('.btn-next').attr('disabled', 'disabled');
+
     }
     jQuery(projects[projectId]).hide();
     projectId--;
 
-    jQuery('.btn-prev').removeAttr('disabled', 'disabled');
-    console.log(projectId);
+    //jQuery('.btn-prev').removeAttr('disabled', 'disabled');
+    //console.log(projectId);
   });
     
 });
+
 
 

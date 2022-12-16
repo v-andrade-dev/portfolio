@@ -29,10 +29,6 @@ header .user .name{
     color: #ffff;
 }
 
-header .user .user-text{
-    font-size: 2rem;
-    color: #eee;
-}
 
 header .navbar{
     width: 100%;
