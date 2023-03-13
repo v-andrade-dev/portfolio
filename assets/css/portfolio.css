@@ -14,7 +14,7 @@
 .portfolio .box-container .box{
     position: absolute;
     top:10.5rem;
-    height: 80rem;
+    height: 70rem;
     width: 80rem;
     border-radius: 1rem;
     overflow: hidden;
@@ -29,14 +29,14 @@
 }
 
 .portfolio .box-container .box .description h2,p, button{
-    margin-top: 3rem;
-    font-size: 2rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
     color: #fff;
     text-align: center;
 }
 
 .portfolio .box-container .box .description ul{
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     color: #fff;
 }
@@ -76,3 +76,4 @@
 .btndesactive{
     display: none;
 }
+
